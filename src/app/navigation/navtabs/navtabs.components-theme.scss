@@ -1,0 +1,14 @@
+@import '~@angular/material/theming';
+
+@mixin navtabs-components-theme($lordzhotel) {
+
+  $primary: map-get($lordzhotel, primary);
+  $accent: map-get($lordzhotel, accent);
+
+
+  // All theming styles should be here
+  .navtabs-container {
+    background-color: mat-color($lordzhotel-primary, 500);
+  }
+}
+
